@@ -77,6 +77,12 @@ const authors = [
   { id: 3, name: "Dan Wahlin" }
 ];
 
+const developers = [
+  { id: 1, name: "Amen Moja Ra" },
+  { id: 2, name: "Hashim Nichols" },
+  { id: 3, name: "James Anderson" }
+];
+
 const newCourse = {
   id: null,
   title: "",
@@ -88,5 +94,6 @@ const newCourse = {
 module.exports = {
   newCourse,
   courses,
-  authors
+  authors,
+  developers
 };
